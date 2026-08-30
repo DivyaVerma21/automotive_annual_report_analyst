@@ -1,0 +1,178 @@
+[
+  {
+    "id": "tesla_total_revenue_2023",
+    "question": "What was Tesla's total revenue in 2023?",
+    "type": "money",
+    "expected_company": "Tesla",
+    "expected_metric": "total revenue",
+    "expected_currency": "USD",
+    "expected_value_million": 96773,
+    "tolerance_million": 5,
+    "required_answer_terms": [
+      "revenue"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "96,773",
+      "96.77 billion",
+      "total revenues"
+    ],
+    "allowed_source_filenames": [
+      "Tesla_Annual_Report_2023.pdf"
+    ]
+  },
+  {
+    "id": "tesla_total_revenue_2022",
+    "question": "How much revenue did Tesla generate in 2022?",
+    "type": "money",
+    "expected_company": "Tesla",
+    "expected_metric": "total revenue",
+    "expected_currency": "USD",
+    "expected_value_million": 81462,
+    "tolerance_million": 5,
+    "required_answer_terms": [
+      "revenue"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "81,462",
+      "81.46 billion",
+      "total revenues"
+    ],
+    "allowed_source_filenames": [
+      "Tesla_Annual_Report_2022.pdf",
+      "Tesla_Annual_Report_2023.pdf"
+    ]
+  },
+  {
+    "id": "ford_revenue_2020",
+    "question": "What was Ford's revenue for the year 2020?",
+    "type": "money",
+    "expected_company": "Ford",
+    "expected_metric": "revenue",
+    "expected_currency": "USD",
+    "expected_value_million": 127144,
+    "tolerance_million": 5,
+    "required_answer_terms": [
+      "revenue"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "127,144",
+      "127144"
+    ],
+    "allowed_source_filenames": [
+      "Ford_Annual_Report_2021.pdf"
+    ]
+  },
+  {
+    "id": "ford_revenue_2021",
+    "question": "What was Ford's revenue in 2021?",
+    "type": "money",
+    "expected_company": "Ford",
+    "expected_metric": "revenue",
+    "expected_currency": "USD",
+    "expected_value_million": 136341,
+    "tolerance_million": 5,
+    "required_answer_terms": [
+      "revenue"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "136,341",
+      "136341"
+    ],
+    "allowed_source_filenames": [
+      "Ford_Annual_Report_2021.pdf"
+    ]
+  },
+  {
+    "id": "bmw_profit_before_tax_2021",
+    "question": "What was BMW's profit before tax in 2021?",
+    "type": "money",
+    "expected_company": "BMW",
+    "expected_metric": "profit before tax",
+    "expected_currency": "EUR",
+    "expected_value_million": 16060,
+    "tolerance_million": 2,
+    "required_answer_terms": [
+      "profit",
+      "tax"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "16,060",
+      "16060"
+    ],
+    "allowed_source_filenames": [
+      "BMW_Annual_Report_2021.pdf"
+    ]
+  },
+  {
+    "id": "bmw_profit_before_tax_2017",
+    "question": "What was BMW's profit before tax in 2017?",
+    "type": "money",
+    "expected_company": "BMW",
+    "expected_metric": "profit before tax",
+    "expected_currency": "EUR",
+    "expected_value_million": 10675,
+    "tolerance_million": 2,
+    "required_answer_terms": [
+      "profit",
+      "tax"
+    ],
+    "forbidden_answer_terms": [
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "10,675",
+      "10675"
+    ],
+    "allowed_source_filenames": [
+      "BMW_Annual_Report_2021.pdf"
+    ]
+  },
+  {
+    "id": "tesla_roadster_status_2022",
+    "question": "What was the production status of the Tesla Roadster in the 2022 annual report?",
+    "type": "text",
+    "expected_company": "Tesla",
+    "required_answer_terms": [
+      "roadster",
+      "in development"
+    ],
+    "forbidden_answer_terms": [
+      "active",
+      "pilot production",
+      "tooling",
+      "could not determine"
+    ],
+    "evidence_text_any": [
+      "Tesla Roadster",
+      "In development"
+    ],
+    "allowed_source_filenames": [
+      "Tesla_Annual_Report_2022.pdf"
+    ]
+  },
+  {
+    "id": "unsupported_bmw_1990_revenue",
+    "question": "What was BMW's revenue in 1990?",
+    "type": "refusal",
+    "expected_company": "BMW",
+    "required_answer_terms": [
+      "could not determine"
+    ],
+    "allowed_source_filenames": []
+  }
+]
